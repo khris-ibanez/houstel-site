@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Houstel</title>
+</head>
+<body>
+    <nav>
+        <img src="assets/images/logo.png" alt="logo">
+    </nav>
+    <header>
+        <p>Disfruta de los paisajes de</p>
+        <h1>Chile</h1>
+        <div>
+            <button type="button">Más destinos</button>
+        </div>
+    </header>
+    <main>
+        <form action="/action_page.php">
+            <label for="fname">Lugar u hotel</label>
+            <input type="text" id="fname" name="lugar" placeholder="Escribe tu destino">
+        
+            <label for="country">Fecha de llegada</label>
+            <select id="country" name="fechallegada">
+                <option value="llegada">Busca tu llegada</option>
+               
+            </select>
+
+            <label for="country">fecha de salida</label>
+            <select id="country" name="fechasalida">
+                <option value="salida">Busca tu salida</option>
+                
+            </select>
+
+            <label for="country">Tipo de alojamiento</label>
+            <select id="country" name="alojamiento">
+                <option value="huesped">Cantidad de huéspedes</option>
+                <option value="1-2">1-2</option>
+                <option value="3-4">3-4</option>
+                <option value="5-6+">5-6+</option>
+            </select>
+
+            <label for="country">tipo de habitación</label>
+            <select id="country" name="habitacion">
+                <option value="habitacion">Cantidad de habitaciones</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <div>
+                <button type="button"> Buscar</button>
+            </div>
+          </form>
+    </main>
+    
+</body>
+</html>

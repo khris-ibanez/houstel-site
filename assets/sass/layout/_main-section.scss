@@ -1,0 +1,31 @@
+main{
+    padding: 2% 5%;
+    margin: 3% 5% 0 5%;
+    background-color: white;
+    border: 1px solid black;
+    form{
+        line-height: 25px;
+        label{
+            display: block;
+        }
+        input{
+            width: 99%;
+            
+        }
+        select{
+            width: 100%;
+        }
+        div{
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            button{
+                border: none;
+                color: white;
+                background-color: #E94F37;
+                padding: 8px 15px 8px 15px;
+                border-radius: 5%;
+            }    
+        }   
+    }
+}

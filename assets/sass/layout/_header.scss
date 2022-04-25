@@ -1,0 +1,26 @@
+header{
+    p{
+        text-align: center;
+        color: white;
+        line-height: 0%;
+    }
+    h1{
+        font-size: 130px;
+        @extend p;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        
+
+        button{
+            border: none;
+            background-color: #44bba4;
+            color: white;
+            border-radius: 5%;
+            padding: 15px 15px;
+            max-height: 100px;
+
+        }
+    }
+}
